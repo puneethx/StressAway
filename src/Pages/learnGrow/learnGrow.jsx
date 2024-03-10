@@ -70,7 +70,7 @@ const learnGrow = () => {
         <div className='head'>Learn more about</div>
         <div className='tail'>Mental Health</div>
       </div>
-      {/* <div className="videos">
+      <div className="videos">
         <div className='video'>
           <div className='player'>
             <YoutubeEmbed youtubeId={youtubeId1} />
@@ -125,7 +125,7 @@ const learnGrow = () => {
             Dr Lokeshi
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   )
 }
