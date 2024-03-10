@@ -1,0 +1,67 @@
+.learnGrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .doctors{
+        display: flex;
+        gap: 1.5vw;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 10vh;
+        margin-top: 2vh;
+        .doctor{
+            width: 10vw;
+            padding: 12px 18px;
+            border-radius: 10px;
+            -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+            -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            justify-content: space-between;
+            .docname{
+                margin-bottom: 0;
+                font-weight: 600;
+            }
+            .apply{
+                margin: 0;
+                text-align: end;
+                font-size: 14px;
+                color: #14BBCC;
+            }
+        }   
+    }
+    .header{
+        display: flex;
+        font-size: 30px;
+        gap: 10px;
+        .tail{
+            font-weight: 600;
+        }
+    }
+    .videos{
+        display: flex;
+        gap: 3vw;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 7.5vh;
+        .video{
+            width: 24vw;
+            height: 40vh;
+            padding: 10px 20px;
+            border-radius: 10px;
+            -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+            -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+            cursor: pointer;
+            .tag{
+                font-weight: 500;
+                margin-top: 1vh;
+            }
+        }
+    }
+}

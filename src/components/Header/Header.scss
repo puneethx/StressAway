@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    padding: 2.5vh 5vw 0vw 3vw;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        img{
+            width: 200px;
+        }
+    }
+    .list{
+        display: flex;
+        gap: 4vw;
+        list-style: none;
+        a{
+            color: grey;
+        }
+        .active{
+            color: black;
+            font-weight: 600;
+        }
+    }
+    
+    .button{
+        margin-left: 9vw;
+        button{
+            background-color: #14BBCC;
+            padding: 10px 20px;
+            border: none;
+            font-family: "Poppins";
+            border-radius: 7px;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}

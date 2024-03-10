@@ -1,0 +1,147 @@
+.thoughts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .today {
+        width: fit-content;
+        background-color: #14BBCC;
+        padding: 10px 30px;
+        color: white;
+        margin-top: 10vh;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 16px;
+        font-family: "Poppins";
+        border: none;
+    }
+
+    .mats {
+        display: flex;
+        gap: 3vw;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 7.5vh;
+
+        .mat {
+            width: 24vw;
+            padding: 10px 20px;
+            border-radius: 10px;
+            -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+            -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+            cursor: pointer;
+            .title{
+                font-weight: 600;
+                font-size: 18px;
+                margin-bottom: 0;
+            }
+            .content{
+                font-size: 16px;
+                margin-top: 0;
+            }
+            .time{
+                font-size: 14px;
+                color: grey;
+            }
+        }
+    }
+
+    .seemore {
+        width: fit-content;
+        background-color: #14BBCC;
+        cursor: pointer;
+        padding: 10px 30px;
+        color: white;
+        margin-top: 5vh;
+        border-radius: 10px;
+        font-size: 16px;
+        font-family: "Poppins";
+        border: none;
+    }
+    h1{
+        font-size: 36px;
+        margin-top: 7vh;
+    }
+    .melody{
+        font-size: 36px;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+    }
+
+    .poses{
+        display: flex;
+        gap: 3vw;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 10vh;
+        margin-top: 2vh;
+
+        .pose {
+            cursor: pointer;
+            width: 24vw;
+            padding: 10px 20px;
+            border-radius: 10px;
+            -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+            -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+            
+            img{
+                width: 24vw;
+                margin-top: 1vh;
+            }
+            .posebottom{
+                display: flex;
+                align-items: center;
+                margin-top: 2vh;
+                margin-bottom: 2vh;
+                justify-content: space-between;
+                .title{
+                    font-weight: 600;
+                    font-size: 18px;
+                    margin-bottom: 0;
+                }
+                .learnnow{
+                    font-size: 14px;
+                    color: #14BBCC;
+                }
+            }
+        }
+    }
+    .medies{
+        display: flex;
+        gap: 1.5vw;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 10vh;
+        margin-top: 2vh;
+        .medy{
+            width: 10vw;
+            height: 15vh;
+            padding: 10px 20px;
+            border-radius: 10px;
+            -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+            -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .title{
+                font-weight: 500;
+            }
+            .play{
+                background-color: #14BBCC;
+                display: flex;
+                padding: 5px 12px;
+                border-radius: 5px;
+                color: white;
+                cursor: pointer;
+                justify-content: space-between;
+            }
+        }
+    }
+}

@@ -1,0 +1,61 @@
+.journal{
+    width: 48vw;
+    background-color: #3499A3;
+    height: 24vw;
+    border-radius: 10px;
+    margin-top: 4vh;
+    .injournal{
+        width: 46vw;
+        margin-top: 1vw;
+        height: 22vw;
+        border-radius: 10px;
+        margin-left: 1vw;
+        background-color: white;
+        .title{
+            border-bottom: 1px solid black;
+            width: 40vw;
+            margin-left: 3vw;
+            input{
+                font-size: 22px;
+                width: 38vw;
+                font-family: "poppins";
+                margin-top: 3vh;
+                font-weight: 600;
+                margin-left: 1vw;
+                border: none;
+                outline: none;
+            }
+        }
+        .content{
+            margin-left: 3vw;
+            margin-right: 3vw;
+            textarea {
+                resize: none;
+                width: 100%;
+                font-family: "poppins";
+                font-size: 14px;
+                height: 28vh;
+                box-sizing: border-box;
+                outline: none;
+                border: none;
+                padding: 10px;
+                margin: 10px 0;
+                border-radius: 4px;
+                border: 1px solid rgb(195, 195, 195);
+            }
+        }
+        .post{
+            float: right;
+            margin-right: 3vw;
+            button{
+                outline: none;
+                border: none;
+                padding: 10px 20px;
+                color: white;
+                border-radius: 7px;
+                font-family: "poppins";
+                background-color: #14BBCC;
+            }
+        }
+    }
+}

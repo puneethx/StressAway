@@ -1,0 +1,114 @@
+.footer{
+    margin-top: 20vh;
+    .top{
+        display: flex;
+        margin: 0vh 5vw 7.5vh 5vw;
+        .left{
+            flex: 1;
+            .lefthead{
+                font-size: 18px;
+                font-weight: 600;
+            }
+            p{
+                width: 35vw;
+            }
+            input{
+                width: 30vw;
+                margin-top: 4vh;
+                outline: none;
+                border: 1px solid rgb(223, 223, 223);
+                font-family: "poppins";
+                padding-left: 10px;
+                height: 5vh;
+                border-radius: 5px;
+            }
+            .signUp{
+                border: none;
+                width: 20vw;
+                height: 5vh;
+                margin-top: 5vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: "poppins";
+                border-radius: 5px;
+                color: white;
+                background-color: #14BBCC;
+            }
+        }
+        .right{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 4vh;
+            .rightflex{
+                display: flex;
+                gap: 4vw;
+                .rightleft{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .righthead{
+                        font-weight: 500;
+                    }
+                    .company{
+                        list-style-type: none;
+                        margin-top: 0;
+                        gap: 1vh;
+                        font-size: 14px;
+                        display: flex;
+                        flex-direction: column;
+                        padding-left: 0;
+                        text-align: center;
+                    }
+                }
+                .rightright{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .righthead{
+                        font-weight: 500;
+                    }
+                    .customer{
+                        list-style-type: none;
+                        margin-top: 0;
+                        gap: 1vh;
+                        font-size: 14px;
+                        display: flex;
+                        flex-direction: column;
+                        padding-left: 0;
+                        text-align: center;
+                    }
+                }
+            }
+            .follow{
+                text-align: center;
+                .icons{
+                    display: flex;
+                    margin-top: 2vh;
+                    gap: 1vw;
+                }
+            }
+        }
+    }
+    .bottom{
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid rgb(225, 225, 225);
+        align-items: center;
+        .bottomleft{
+            ul{
+                display: flex;
+                list-style-type: none;
+                gap: 3vw;
+            }
+        }
+        .bottomright{
+            text-align: center;
+
+        }
+    }
+}
