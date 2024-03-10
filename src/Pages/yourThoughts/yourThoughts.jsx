@@ -7,7 +7,7 @@ import axios from 'axios';
 
 const yourThoughts = () => {
     const [data, setData] = useState([]);
-    const [melody, setMelody] = useState([]);
+    const [melodies, setMelody] = useState([]);
     
     useEffect(() => {
         const fetchData = async () => {
@@ -58,32 +58,32 @@ const yourThoughts = () => {
 
     
 
-    // const melodies = [
-    //     {
-    //         id: 1,
-    //         title: "Scared to Live By Weekend"
-    //     },
-    //     {
-    //         id: 2,
-    //         title: "Save Your Tears By Weekend"
-    //     },
-    //     {
-    //         id: 3,
-    //         title: "Sidewalks By Weekend"
-    //     },
-    //     {
-    //         id: 4,
-    //         title: "Belong to the world By weekend"
-    //     },
-    //     {
-    //         id: 5,
-    //         title: "After Hours By weekend"
-    //     },
-    //     {
-    //         id: 6,
-    //         title: "Scared to Live By Weekend"
-    //     },
-    // ]
+    const melody = [
+        {
+            id: 1,
+            title: "Scared to Live By Weekend"
+        },
+        {
+            id: 2,
+            title: "Save Your Tears By Weekend"
+        },
+        {
+            id: 3,
+            title: "Sidewalks By Weekend"
+        },
+        {
+            id: 4,
+            title: "Belong to the world By weekend"
+        },
+        {
+            id: 5,
+            title: "After Hours By weekend"
+        },
+        {
+            id: 6,
+            title: "Scared to Live By Weekend"
+        },
+    ]
 
     const [open, setOpen] = useState(null);
     return (
